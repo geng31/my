@@ -5,30 +5,53 @@
     <title>나의 첫 번째 웹</title>
 
     <style media="screen">
-    h1{
+      h1{
+        text-align: center;
+        border-bottom: 5px solid black;
+        margin: 0px;
+        padding:40px;
+      }
+      ol{
+        border-right:5px solid black;
+        width:100px;
+        margin:0;
+        padding:20px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+
+    </style>
+
+    <style media="screen">
+    h2{
       color:DarkSlateGray;
-      font-size: 20px;
+      font-size: 30px;
     }
 
     a{
     color:black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     }
 
     </style>
-    
+
   </head>
   <body>
  <h1><a href="index.html">내가 좋아하는 것들</a></h1>
+ <div id="grid">
  <ol>
     <li><a href="0.html">노래</a></li>
     <li><a href="1.html">영화</a></li>
     <li><a href="2.html">여행</a></li>
  </ol>
-
-<h1>경비연</h1>
+<div id="article">
+<h2>경비연</h2>
 <p> 제 홈페이지입니다.</p>
+</div>
+</div>
 
   </body>
 </html>
