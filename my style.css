@@ -1,0 +1,35 @@
+<style media="screen">
+@media(max-width:800px){
+  h1{
+    text-align: center;
+    border-bottom: 4px solid CadetBlue ;
+    margin: 0px;
+    padding:40px;
+  }
+  ol{
+    border-right:4px solid CadetBlue ;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+</style>
+
+<style media="screen">
+h2{
+  color:DarkSlateGray;
+  font-size: 30px;
+}
+
+a{
+color:black;
+text-decoration: none;
+font-size: 40px;
+}
+}
+</style>
